@@ -68,3 +68,15 @@
     color: #ffffff;
     background: #2A7AE4;
 }
+
+@media (max-width: 790px) {
+    .header {
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .header__searchBar {
+        display: none;
+    }
+}
