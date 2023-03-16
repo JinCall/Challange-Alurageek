@@ -14,6 +14,7 @@
 .contact__logo__text1, .contact__logo__text2 {
     font-size: 1.125rem;
     font-weight: bold;
+    padding-top: 2rem;
 }
 
 .contact__logo__text1 {
