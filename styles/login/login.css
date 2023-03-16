@@ -1,0 +1,75 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.login__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.login__form__input {
+    width: 25%;
+}
+
+.login__form__text {
+    font-size: larger;
+    font-weight: 700;
+    margin: 5rem 0 2rem;
+}
+
+.login__form__input__container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.login__form__email, .login__form__password, .login__form__btn {
+    margin: 1rem 0;
+    padding: 0.7rem 1.3rem;
+    border: none;
+}
+
+.login__form__email, .login__form__password {
+    border-bottom: 2px solid #C8C8C8;
+    transition: all 150ms;
+}
+
+.login__form__email:hover, .login__form__password:hover, .login__form__email:focus, .login__form__password:focus {
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.login__form__email::placeholder, .login__form__password::placeholder {
+    color: #A2A2A2;
+}
+
+.login__form__btn {
+    border: 1px solid white;
+    background-color: #2A7AE4;
+    color: white;
+    transition: all 150ms;
+}
+
+.login__form__btn:hover {
+    border: 1px solid #2A7AE4;
+    background-color: white;
+    color: #2A7AE4;
+}
+
+@media (max-width: 790px) {
+    .login__form__input {
+        width: 70%;
+    }
+}
+
+@media (min-width: 800px) {
+    .login__form__input {
+        width: 60%;
+    }
+}
