@@ -1,0 +1,16 @@
+.footer{
+    background: #F5F5F5;
+    font-weight: 500;
+    font-size: 0.4rem;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 260px) {
+    .footer {
+        width: 100%;
+    }
+}

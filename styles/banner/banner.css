@@ -1,0 +1,43 @@
+.banner {
+    background: url(/assets/img/banner.png) center / cover no-repeat;;
+    display: flex;
+    height: 22rem;
+    color: #ffffff;
+}
+
+.banner__tittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 2rem 6.5rem;
+}
+
+.banner__tittle__text, .banner__tittle__subtext {
+    font-weight: bold;
+}
+
+.banner__tittle__text {
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+}
+
+.banner__tittle__subtext {
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+}
+
+.banner__tittle__discount {
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #2A7AE4;
+    background-color: #2A7AE4;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    transition: all 150ms;
+}
+
+.banner__tittle__discount:hover {
+    background-color: transparent;
+}
