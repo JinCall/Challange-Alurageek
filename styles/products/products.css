@@ -45,3 +45,14 @@
 .products__list__card:hover {
     border-bottom: 2px solid #2A7AE4;;
 }
+
+@media (max-width: 790px) {
+    .products__header {
+        align-items: flex-start;
+        justify-content: space-between;
+        font-size: 80%;
+        gap: 80%;
+        margin: 1rem 0 0;
+        padding-left: 3rem;
+    }
+}
