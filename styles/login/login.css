@@ -54,6 +54,8 @@
     background-color: #2A7AE4;
     color: white;
     transition: all 150ms;
+    width: 20%;
+    align-self: center;
 }
 
 .login__form__btn:hover {
