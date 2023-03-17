@@ -3,7 +3,7 @@
     display: flex;
     height: 7.2rem;
     padding: 0 6.5rem;
-    background-color: #EAF2FD;
+    background-color: white;
 }
 
 .header__logo {
@@ -29,7 +29,7 @@
 
 .header__searchBar {
     background: url(/assets/img/glass\ light.png) no-repeat right;
-    background-position-x: 22.5rem;
+    background-position-x: 95%;
     background-color: #f5f5f5;
     border: 1.5px solid #f5f5f5;
     border-radius: 1.75rem;
