@@ -73,3 +73,9 @@
         width: 60%;
     }
 }
+
+@media (min-width: 1400px) {
+    .login__form__input {
+        width: 30%;
+    }
+}

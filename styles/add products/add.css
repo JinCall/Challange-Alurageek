@@ -37,7 +37,9 @@
 }
 
 .add__btn {
+    align-self: center;
     margin: 1rem 0;
+    width: 20%;
     padding: 0.7rem 1.3rem;
     border: none;
     border: 1px solid white;
