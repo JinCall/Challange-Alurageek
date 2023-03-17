@@ -31,7 +31,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 0 6.5rem 4rem;
+    padding-left: 6rem;
     gap: 1rem;
 }
 
@@ -54,5 +54,14 @@
         gap: 80%;
         margin: 1rem 0 0;
         padding-left: 3rem;
+    }
+    .products__list {
+        padding-left: 5rem;
+    }
+}
+
+@media (max-width: 290px) {
+    .products__list {
+        padding-left: 2.5rem;
     }
 }
