@@ -75,6 +75,7 @@
     background-color: #2A7AE4;
     color: #EAF2FD;
     transition: all 150ms;
+    cursor: pointer;
 }
 
 .contact__form__input__btn:hover {

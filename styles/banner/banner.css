@@ -36,6 +36,7 @@
     height: 2rem;
     text-align: center;
     transition: all 150ms;
+    cursor: pointer;
 }
 
 .banner__tittle__discount:hover {
