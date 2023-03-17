@@ -31,7 +31,14 @@
                 <h2 class="add__tittle">Add a new product</h2>
                 <form action="">
                     <div class="add__container__form">
-                    <input type="input" class="add__input" id="img" placeholder="Image Link" required>
+                        <div class="add__imgArea">
+                            <div class="add__img">
+                                <img src="" id="image">
+                                <p class="add__img__text">Drag an image</p>
+                            </div>
+                            <p class="add__img__text">or</p>
+                            <button class="add__img__btn">Upload a file</button>
+                        </div>
                     <input type="text" class="add__input" id="item" placeholder="Item Name" required>
                     <input type="number" class="add__input" id="price" placeholder="Price" required>
                     <textarea id="description" cols="30" rows="10" class="add__input" name="description" placeholder="Item description" required></textarea>
@@ -74,6 +81,7 @@
     <script src="/js/contact.js"></script>
     <script src="/js/login.js"></script>
     <script src="/js/addproducts.js"></script>
+    <script src="/js/addimg.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
 </body>
 </html>
