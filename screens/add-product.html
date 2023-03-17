@@ -31,12 +31,12 @@
                 <h2 class="add__tittle">Add a new product</h2>
                 <form action="">
                     <div class="add__container__form">
-                    <input type="input" class="add__input" placeholder="Image Link" required>
-                    <input type="text" class="add__input" placeholder="Category" required>
-                    <input type="text" class="add__input" placeholder="Item Name" required>
-                    <input type="number" class="add__input" placeholder="Price" required>
-                    <textarea name="" id="" cols="30" rows="10" class="add__input" placeholder="Item description" required></textarea>
-                    <button class="add__btn">Add product</button>
+                    <input type="input" class="add__input" id="img" placeholder="Image Link" required>
+                    <input type="text" class="add__input" id="item" placeholder="Item Name" required>
+                    <input type="number" class="add__input" id="price" placeholder="Price" required>
+                    <textarea id="description" cols="30" rows="10" class="add__input" name="description" placeholder="Item description" required></textarea>
+                    <input type="text" class="add__input" id="category" placeholder="Category" required>
+                    <button class="add__btn" data-add-btn>Add product</button>
                 </form>
                 </div>
             </div>
@@ -73,6 +73,7 @@
     </main>
     <script src="/js/contact.js"></script>
     <script src="/js/login.js"></script>
+    <script src="/js/addproducts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
 </body>
 </html>
