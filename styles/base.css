@@ -5,3 +5,37 @@
     padding: 0;
     font-family: "Raleway", sans-serif;
 }
+
+.input-error{
+    border: 1px solid #ca5858;
+    border-radius: 8px;
+}
+
+.input-error:focus{
+    border-bottom: 1px solid #ca5858;
+}
+
+.input-error::placeholder{
+    color: #ca5858;
+}
+
+.input-error{
+    background: url(/assets/img-svg/error-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.input-sucess{
+    border: 1px solid #308642;
+    border-radius: 8px;
+}
+
+.input-sucess:focus{
+    border-bottom: 1px solid #308642;
+}
+
+.input-sucess{
+    background: url(/assets/img-svg/success-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}

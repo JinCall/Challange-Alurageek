@@ -31,8 +31,8 @@
                 <h2 class="login__form__text">Login</h2>
                 <div class="login__form__input">
                     <form class="login__form__input__container" action="">
-                        <input type="email" class="login__form__email" placeholder="E-mail" required>
-                        <input type="password" class="login__form__password" placeholder="Password" required>
+                        <input type="email" name="email" id="email" class="login__form__email" placeholder="E-mail" required>
+                        <input type="password" name="password" id="password" class="login__form__password" placeholder="Password" required>
                         <button type="submit" class="login__form__btn" data-form-button>Send</button>
                     </form>
                 </div>
@@ -60,7 +60,7 @@
                     <input type="text" name="Name" id="name" class="contact__form__input__name" placeholder="Name">
                     <textarea name="Message" id="message" cols="30" rows="10" class="contact__form__input__message" 
                     placeholder="Write your message"></textarea>
-                    <button class="contact__form__input__btn" type="submit">Send</button>
+                    <button class="contact__form__input__btn" type="submit" data-form-button>Send</button>
                 </form>
             </div>
         </section>
@@ -68,5 +68,8 @@
             <h1 class="footer__text">Deveolped by Santiago Calleros 2023</h1>
         </footer>
     </main>
+    <script src="/js/contact.js"></script>
+    <script src="/js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
 </body>
 </html>
